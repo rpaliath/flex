@@ -26,7 +26,7 @@
 
 .blue1 {
     
-    background-color: lightcoral;
+    background-color: lightgoldenrodyellow;
     width: 200px;
     height: 60px;
     margin:  auto;
@@ -38,8 +38,9 @@
     
     background-color: lightpink;
     height: 45px;
-    width: 95px;
+    width: 90px;
     margin: auto;
+    border: 3px solid red;
     
  }
 
@@ -49,11 +50,37 @@
     align-items: center;
     border:2px solid red;
  }
+
+ .blue4 {
+  background-color: rgb(127, 165, 177);
+  display: flex;
+  width:200px;
+  height:60px;
+  border:3px solid blue
+
+ }
+ 
+ #blue4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+ }
+ .blue5 {
+    
+    background-color: lightgoldenrodyellow;
+    width: 90px;
+    height: 45px;
+    border: 3px solid red;
+   
+
+ }
+ 
  .orange {
     display:flex;
     justify-content: space-evenly;
     align-items: center;    
-    width: 700px;
+    width: 675px;
     height: 275px;
     
     
@@ -62,9 +89,11 @@
 
 .orange1 {
    
-   background-color:blue;
+   background-color:pink;
     width: 330px;
-    height: 265px;
+    height: 250px;
+    border: 3px solid brown;
+    margin: 10px;
     
    
     
@@ -84,6 +113,7 @@
     width: 330px;
     height: 130px;
     margin: 10px auto;
+    border: 3px solid brown;
 
    
     
